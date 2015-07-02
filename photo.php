@@ -1,5 +1,4 @@
 <?php
-require 'lib.php';
 sql_connect();
 
 $get_photos = "SELECT `name_img`, `type_img` FROM `info_photo` WHERE `id_img`='".$_GET['id']."'";
